@@ -1,4 +1,4 @@
-# Mesh Detect
+# Cam Sniffer
 Esp32 OUI Sniffer
 
 This project uses a Seedstudio Xiao esp32-C3 to scan for a specific OUI or group of OUIs via ble. 
