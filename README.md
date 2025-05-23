@@ -1,13 +1,13 @@
 # Cam Sniffer
 
 
-This project uses a Seedstudio Xiao esp32-C3 to scan for a specific OUI or group of OUIs via ble. 
+This project uses a Seedstudio Xiao esp32-C3 or S3 to scan for a specific OUI or group of OUIs via ble. 
 If the specified device is detected, a message is sent to the Heltec Lora V3 and distributed over a LoRa mesh network such as Meshtastic.
 
 <img src="cam.png" alt="deepwoods" style="width:50%; height:25%;">
 
 ## Requirements
-- Seedstudio Xiao esp32-C3
+- Seedstudio Xiao esp32-C3/S3
 - Heltec Lora V3
 - Meshtastic framework or other lora mesh framework
 - Current Nimble library for BLE intergration
