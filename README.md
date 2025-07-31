@@ -19,8 +19,8 @@ The project is configured to detect devices with the following OUIs:
 
 ## Pin Configuration
 
-- **UART TX**: D4 (GPIO4)
-- **UART RX**: D5 (GPIO5)
+- **UART TX**: D4 
+- **UART RX**: D5 
 
 ## Project Structure
 
