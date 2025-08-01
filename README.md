@@ -16,7 +16,7 @@ If the specified device is detected, a message is sent to the Heltec LoRa V3 and
 
 ## Target OUIs
 
-The project is configured to detect devices with the following OUIs:
+The project is currently configured to detect devices with the following dummy OUIs:
 - `00:11:22`
 - `11:22:33`
 - `44:55:66`
