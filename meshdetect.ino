@@ -21,9 +21,7 @@
 // Add your desired OUIs here (first 3 bytes of MAC address)
 // Format: "XX:XX:XX" (case insensitive)
 std::vector<std::string> TARGET_OUIS = {
-    "00:11:22",  // Target OUI 1
-    "11:22:33",  // Target OUI 2
-    "44:55:66"   // Target OUI 3
+    "58:8e:81", "cc:cc:cc", "ec:1b:bd", "90:35:ea", "04:0d:84", "f0:82:c0", "1c:34:f1", "38:5b:44", "94:34:69", "b4:e3:f9", "70:c9:4e", "3c:91:80", "d8:f3:bc", "80:30:49", "14:5a:fc", "74:4c:a1", "08:3a:88", "9c:2f:9d", "94:08:53", "e4:aa:ea"
     // Add more OUIs as needed
 };
 
@@ -148,7 +146,7 @@ public:
                 devices.push_back(newDev);
 
                 // Send detection message to Serial1
-                Serial1.print("Device Detected: ");
+                Serial1.print("Flock Device Detected: ");
                 Serial1.println(mac.c_str());
                 Serial1.flush(); // Ensure UART buffer is sent
                 if (isSerialConnected()) {
